@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/VCLoadTimeProfiler.svg?style=flat)](https://cocoapods.org/pods/VCLoadTimeProfiler)
 [![Platform](https://img.shields.io/cocoapods/p/VCLoadTimeProfiler.svg?style=flat)](https://cocoapods.org/pods/VCLoadTimeProfiler)
 
+参考 [http://satanwoo.github.io/2017/11/27/KVO-Swizzle/](http://satanwoo.github.io/2017/11/27/KVO-Swizzle/)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
