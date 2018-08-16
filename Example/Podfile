@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VCLoadTimeProfiler_Example' do
+  pod 'VCLoadTimeProfiler', :path => '../'
+
+  target 'VCLoadTimeProfiler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
