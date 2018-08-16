@@ -22,7 +22,7 @@ pod 'VCLoadTimeProfiler'
 
 ## Author
 
-BrooksWon, wangjianyu@weiboyi.com
+BrooksWon, HelloCodingMan@gmail.com
 
 ## License
 

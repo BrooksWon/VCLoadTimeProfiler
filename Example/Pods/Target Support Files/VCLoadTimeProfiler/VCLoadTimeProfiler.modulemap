@@ -1,0 +1,6 @@
+framework module VCLoadTimeProfiler {
+  umbrella header "VCLoadTimeProfiler-umbrella.h"
+
+  export *
+  module * { export * }
+}

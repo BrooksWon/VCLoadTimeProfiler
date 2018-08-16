@@ -1,0 +1,16 @@
+PODS:
+  - VCLoadTimeProfiler (0.1.0)
+
+DEPENDENCIES:
+  - VCLoadTimeProfiler (from `../`)
+
+EXTERNAL SOURCES:
+  VCLoadTimeProfiler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VCLoadTimeProfiler: 866bf1e47c8312317b5a085b50207b0a269b63e1
+
+PODFILE CHECKSUM: d0f77943c3e32e489a97d9506a28b6fda49c3741
+
+COCOAPODS: 1.5.3

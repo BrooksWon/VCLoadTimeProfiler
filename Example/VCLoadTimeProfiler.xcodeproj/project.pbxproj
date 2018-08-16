@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0B49BD5E7278E06220C7DDE8 /* Pods_VCLoadTimeProfiler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCLoadTimeProfiler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EE38FF8779EABF8961E589F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5EE38FF8779EABF8961E589F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VCLoadTimeProfiler_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCLoadTimeProfiler_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +59,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		738FD8F7666B66909DCF6886 /* VCLoadTimeProfiler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VCLoadTimeProfiler.podspec; path = ../VCLoadTimeProfiler.podspec; sourceTree = "<group>"; };
+		738FD8F7666B66909DCF6886 /* VCLoadTimeProfiler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VCLoadTimeProfiler.podspec; path = ../VCLoadTimeProfiler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88D1A45D4F10CBE4DDBE1131 /* Pods-VCLoadTimeProfiler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLoadTimeProfiler_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCLoadTimeProfiler_Example/Pods-VCLoadTimeProfiler_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		929C419CA4B96E90B1549656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		929C419CA4B96E90B1549656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B537D55C8D8F02872DD86569 /* Pods-VCLoadTimeProfiler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLoadTimeProfiler_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCLoadTimeProfiler_Tests/Pods-VCLoadTimeProfiler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCEBBDBE5D0A3AF84DE32ADE /* Pods_VCLoadTimeProfiler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCLoadTimeProfiler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04630EE31D7BC178060C738 /* Pods-VCLoadTimeProfiler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLoadTimeProfiler_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCLoadTimeProfiler_Tests/Pods-VCLoadTimeProfiler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
