@@ -1,5 +1,5 @@
 PODS:
-  - VCLoadTimeProfiler (0.1.0)
+  - VCLoadTimeProfiler (0.1.1)
 
 DEPENDENCIES:
   - VCLoadTimeProfiler (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VCLoadTimeProfiler: 866bf1e47c8312317b5a085b50207b0a269b63e1
+  VCLoadTimeProfiler: b3304543748b52ea5d1e40f1e439e5b8d5f3e22b
 
 PODFILE CHECKSUM: d0f77943c3e32e489a97d9506a28b6fda49c3741
 

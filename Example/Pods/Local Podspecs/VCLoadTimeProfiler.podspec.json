@@ -1,6 +1,6 @@
 {
   "name": "VCLoadTimeProfiler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of VCLoadTimeProfiler.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BrooksWon/VCLoadTimeProfiler",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "BrooksWon": "wangjianyu@weiboyi.com"
+    "BrooksWon": "jianyu996@163.com"
   },
   "source": {
     "git": "https://github.com/BrooksWon/VCLoadTimeProfiler.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

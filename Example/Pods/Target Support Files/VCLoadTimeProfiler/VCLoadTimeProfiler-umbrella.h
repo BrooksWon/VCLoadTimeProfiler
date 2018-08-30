@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIViewController+LoadTimeProfiler.h"
 
 FOUNDATION_EXPORT double VCLoadTimeProfilerVersionNumber;
 FOUNDATION_EXPORT const unsigned char VCLoadTimeProfilerVersionString[];

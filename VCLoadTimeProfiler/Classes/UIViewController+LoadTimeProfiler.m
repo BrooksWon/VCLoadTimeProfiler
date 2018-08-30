@@ -54,7 +54,7 @@ static NSString *const kUniqueFakeKeyPath = @"useless_key_path";
 
 #pragma mark -
 
-@implementation UIViewController (VCDetector)
+@implementation UIViewController (LoadTimeProfiler)
 
 + (void)load {
     static dispatch_once_t onceToken;

@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285EB9B9FA3D5C012449E42D32D1F31B /* VCLoadTimeProfiler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E118565DAD315C6EC983852EB681682 /* VCLoadTimeProfiler-dummy.m */; };
+		2A76B62ACC75BD6DC5DEBF37B9E4556A /* UIViewController+LoadTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A776E726EFF85C4703C95D5D764F69 /* UIViewController+LoadTimeProfiler.m */; };
 		2C2DA8B1830EC062945F5AC9C93A240C /* Pods-VCLoadTimeProfiler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A98A5CBF4C41D6044C252BD232F6E352 /* Pods-VCLoadTimeProfiler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD321B1E8F79A6E29914A7D783C3F94 /* VCLoadTimeProfiler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D74500D77CC83909CE61A8925C2BE538 /* VCLoadTimeProfiler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44EB1FA70308E04B8390A285FF03F017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		4C54976ABE751BBB835EAEFFC78CFCF8 /* Pods-VCLoadTimeProfiler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45567E8C7F0588D3F4B4546F65965DA9 /* Pods-VCLoadTimeProfiler_Tests-dummy.m */; };
 		6F0C7A51E30ED9D4ADA2F043A3A01F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		98B7ACCD2125286900AB7D06 /* UIViewController+LoadTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B7ACCB2125286900AB7D06 /* UIViewController+LoadTimeProfiler.h */; };
-		98B7ACCE2125286900AB7D06 /* UIViewController+LoadTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7ACCC2125286900AB7D06 /* UIViewController+LoadTimeProfiler.m */; };
+		96D1265C9FE269E024A2590ECA3BF6DA /* UIViewController+LoadTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B625EC341EADA05B7612762C60FE466 /* UIViewController+LoadTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B139E1E250BAD866E8E50444AA0CB066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B494A8316E850A5473CE0DD7A3A58CCC /* VCLoadTimeProfiler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE98529896934932C88E7CD13D5373DB /* VCLoadTimeProfiler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E44F7F19D2F4FE8E914E5F153D71CA8F /* Pods-VCLoadTimeProfiler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA6E1E3C34A381CAAD2CAC45D0C3A57 /* Pods-VCLoadTimeProfiler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E60FCEDEF8306211930E2285FF08A19A /* Pods-VCLoadTimeProfiler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8102C4D6E42E3791F354F3950237FD2 /* Pods-VCLoadTimeProfiler_Example-dummy.m */; };
-		F0DAA1FF3E8231997906EDF6F78F91D7 /* VCLoadTimeProfiler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E196DAD4C72EA1EEC96953FB9C6364BD /* VCLoadTimeProfiler-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,41 +39,41 @@
 
 /* Begin PBXFileReference section */
 		0FE169290E676988A04709BDBFD739E9 /* Pods-VCLoadTimeProfiler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCLoadTimeProfiler_Tests-resources.sh"; sourceTree = "<group>"; };
+		1013127F6478A5147BFB988FBE12BD82 /* VCLoadTimeProfiler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VCLoadTimeProfiler.modulemap; sourceTree = "<group>"; };
+		15E8C73B69A5473379CBE97654A3ACE8 /* VCLoadTimeProfiler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VCLoadTimeProfiler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B625EC341EADA05B7612762C60FE466 /* UIViewController+LoadTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LoadTimeProfiler.h"; path = "VCLoadTimeProfiler/Classes/UIViewController+LoadTimeProfiler.h"; sourceTree = "<group>"; };
 		2BA099B5B4FC4109925DDE2315199875 /* Pods-VCLoadTimeProfiler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCLoadTimeProfiler_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35325F1E692AA8B84BAA486D66FF41FC /* Pods-VCLoadTimeProfiler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCLoadTimeProfiler_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		45567E8C7F0588D3F4B4546F65965DA9 /* Pods-VCLoadTimeProfiler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCLoadTimeProfiler_Tests-dummy.m"; sourceTree = "<group>"; };
 		4C49C80889948640AF15A83F75EA32CB /* Pods-VCLoadTimeProfiler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCLoadTimeProfiler_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75E15DC722244590E08BBA796C7276A8 /* Pods_VCLoadTimeProfiler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCLoadTimeProfiler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E15DC722244590E08BBA796C7276A8 /* Pods_VCLoadTimeProfiler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VCLoadTimeProfiler_Example.framework; path = "Pods-VCLoadTimeProfiler_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C7FD15C82CC78679A51B7255DDF5DF /* Pods-VCLoadTimeProfiler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCLoadTimeProfiler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7BC050B463D23325FA3AA9B7846D9FAB /* Pods-VCLoadTimeProfiler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCLoadTimeProfiler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		82AC07551380C242D04D8CA8AF3866A8 /* Pods-VCLoadTimeProfiler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VCLoadTimeProfiler_Example.modulemap"; sourceTree = "<group>"; };
-		86AF64A493EA42A0FB05E316E8451C8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8C959992598F611EDE67F17CD282C271 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E118565DAD315C6EC983852EB681682 /* VCLoadTimeProfiler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VCLoadTimeProfiler-dummy.m"; sourceTree = "<group>"; };
+		8F22B5E7F2D440A6CD8AAFCB894A4898 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		91F6821E3FBCC20128CFD0306C8A02BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98B7ACCB2125286900AB7D06 /* UIViewController+LoadTimeProfiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LoadTimeProfiler.h"; sourceTree = "<group>"; };
-		98B7ACCC2125286900AB7D06 /* UIViewController+LoadTimeProfiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LoadTimeProfiler.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A98A5CBF4C41D6044C252BD232F6E352 /* Pods-VCLoadTimeProfiler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VCLoadTimeProfiler_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B4B0E913E8D4B912550A3F98D8460C32 /* VCLoadTimeProfiler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VCLoadTimeProfiler.modulemap; sourceTree = "<group>"; };
+		B54D3C15C189B614835062C14DD37E55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BA21EADA9648D8AE8E4A7F705C19BDB2 /* Pods-VCLoadTimeProfiler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VCLoadTimeProfiler_Tests.modulemap"; sourceTree = "<group>"; };
-		BAAD9C47E52C7C0C9636D940C2BCF320 /* Pods_VCLoadTimeProfiler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCLoadTimeProfiler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1DBA4E7347A2218FB4A1EDE1F99C890 /* VCLoadTimeProfiler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VCLoadTimeProfiler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C5C4B08637D4BF5F87CC62C72AF0BC7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAD9C47E52C7C0C9636D940C2BCF320 /* Pods_VCLoadTimeProfiler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VCLoadTimeProfiler_Tests.framework; path = "Pods-VCLoadTimeProfiler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF770D041CC9874C0885BC1AD2A7A0DB /* VCLoadTimeProfiler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VCLoadTimeProfiler.xcconfig; sourceTree = "<group>"; };
 		C8102C4D6E42E3791F354F3950237FD2 /* Pods-VCLoadTimeProfiler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCLoadTimeProfiler_Example-dummy.m"; sourceTree = "<group>"; };
 		D2138DF91F2CAF246B41E41CC926D233 /* Pods-VCLoadTimeProfiler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCLoadTimeProfiler_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D664C9AE87E6D9880D429F10F9256197 /* VCLoadTimeProfiler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VCLoadTimeProfiler.xcconfig; sourceTree = "<group>"; };
-		DE98529896934932C88E7CD13D5373DB /* VCLoadTimeProfiler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCLoadTimeProfiler-umbrella.h"; sourceTree = "<group>"; };
+		D74500D77CC83909CE61A8925C2BE538 /* VCLoadTimeProfiler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCLoadTimeProfiler-umbrella.h"; sourceTree = "<group>"; };
+		D957B6CBE37B88F7DE2EBBE327DE2B4F /* VCLoadTimeProfiler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCLoadTimeProfiler-prefix.pch"; sourceTree = "<group>"; };
 		DF6F597E595858DF593E0BB1607786EF /* Pods-VCLoadTimeProfiler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VCLoadTimeProfiler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0023720084A5F951D801FC36D4A9053 /* Pods-VCLoadTimeProfiler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCLoadTimeProfiler_Example-resources.sh"; sourceTree = "<group>"; };
-		E196DAD4C72EA1EEC96953FB9C6364BD /* VCLoadTimeProfiler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VCLoadTimeProfiler-dummy.m"; sourceTree = "<group>"; };
 		E39E71652944B02BF2790EF16A215B56 /* Pods-VCLoadTimeProfiler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VCLoadTimeProfiler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9240D779CE40A95C722144A418EE873 /* VCLoadTimeProfiler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VCLoadTimeProfiler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9240D779CE40A95C722144A418EE873 /* VCLoadTimeProfiler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VCLoadTimeProfiler.framework; path = VCLoadTimeProfiler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFB4FACE030662A91C496A3EBCC4F67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F033C048F9564096F55FE751BC315CA8 /* Pods-VCLoadTimeProfiler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VCLoadTimeProfiler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F18A7D6BB65CFDEAC40B95A4281F6F15 /* Pods-VCLoadTimeProfiler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VCLoadTimeProfiler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4A776E726EFF85C4703C95D5D764F69 /* UIViewController+LoadTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LoadTimeProfiler.m"; path = "VCLoadTimeProfiler/Classes/UIViewController+LoadTimeProfiler.m"; sourceTree = "<group>"; };
 		FDA6E1E3C34A381CAAD2CAC45D0C3A57 /* Pods-VCLoadTimeProfiler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VCLoadTimeProfiler_Example-umbrella.h"; sourceTree = "<group>"; };
-		FF63DBD6B194CA33CC387915E445AFAF /* VCLoadTimeProfiler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCLoadTimeProfiler-prefix.pch"; sourceTree = "<group>"; };
-		FFF6878A42013AE5BBAE8C38C792F29C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7588A2A448C35D428DDF6F12AA4A0E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F22B5E7F2D440A6CD8AAFCB894A4898 /* LICENSE */,
+				B54D3C15C189B614835062C14DD37E55 /* README.md */,
+				15E8C73B69A5473379CBE97654A3ACE8 /* VCLoadTimeProfiler.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F25FC027DFAABDF4F1E4DF86A36293C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EB8EB647816DB40C06C842731125BE0 /* VCLoadTimeProfiler */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6DE748707CE52A1857D8FE90FA03F8C4 /* Pods-VCLoadTimeProfiler_Tests */ = {
@@ -130,6 +148,18 @@
 			path = "Target Support Files/Pods-VCLoadTimeProfiler_Tests";
 			sourceTree = "<group>";
 		};
+		6EB8EB647816DB40C06C842731125BE0 /* VCLoadTimeProfiler */ = {
+			isa = PBXGroup;
+			children = (
+				1B625EC341EADA05B7612762C60FE466 /* UIViewController+LoadTimeProfiler.h */,
+				F4A776E726EFF85C4703C95D5D764F69 /* UIViewController+LoadTimeProfiler.m */,
+				0E7588A2A448C35D428DDF6F12AA4A0E /* Pod */,
+				905A21521994C074FF0C2C3728C6E7DA /* Support Files */,
+			);
+			name = VCLoadTimeProfiler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7D90F94DAAD84D587E57D5E76CB2C667 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,33 +174,25 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BF1AF2D10C46096E60F69133C9566A3F /* Development Pods */,
+				5F25FC027DFAABDF4F1E4DF86A36293C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7D90F94DAAD84D587E57D5E76CB2C667 /* Products */,
 				E9FF241F6E0C8FB3003EBBC99EFD763D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B34F81F9760F6E98A3F4ED87848BEE0 /* Pod */ = {
+		905A21521994C074FF0C2C3728C6E7DA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFF6878A42013AE5BBAE8C38C792F29C /* LICENSE */,
-				86AF64A493EA42A0FB05E316E8451C8A /* README.md */,
-				C1DBA4E7347A2218FB4A1EDE1F99C890 /* VCLoadTimeProfiler.podspec */,
+				EBFB4FACE030662A91C496A3EBCC4F67 /* Info.plist */,
+				1013127F6478A5147BFB988FBE12BD82 /* VCLoadTimeProfiler.modulemap */,
+				BF770D041CC9874C0885BC1AD2A7A0DB /* VCLoadTimeProfiler.xcconfig */,
+				8E118565DAD315C6EC983852EB681682 /* VCLoadTimeProfiler-dummy.m */,
+				D957B6CBE37B88F7DE2EBBE327DE2B4F /* VCLoadTimeProfiler-prefix.pch */,
+				D74500D77CC83909CE61A8925C2BE538 /* VCLoadTimeProfiler-umbrella.h */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8D55273FD474833E1362880C8F068D3A /* VCLoadTimeProfiler */ = {
-			isa = PBXGroup;
-			children = (
-				98B7ACCB2125286900AB7D06 /* UIViewController+LoadTimeProfiler.h */,
-				98B7ACCC2125286900AB7D06 /* UIViewController+LoadTimeProfiler.m */,
-				8B34F81F9760F6E98A3F4ED87848BEE0 /* Pod */,
-				F8D8A519CB2AA95B74DEA6C8D3D0F5D2 /* Support Files */,
-			);
-			name = VCLoadTimeProfiler;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VCLoadTimeProfiler";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -181,14 +203,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF1AF2D10C46096E60F69133C9566A3F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8D55273FD474833E1362880C8F068D3A /* VCLoadTimeProfiler */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		E9FF241F6E0C8FB3003EBBC99EFD763D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,20 +210,6 @@
 				6DE748707CE52A1857D8FE90FA03F8C4 /* Pods-VCLoadTimeProfiler_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F8D8A519CB2AA95B74DEA6C8D3D0F5D2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5C4B08637D4BF5F87CC62C72AF0BC7E /* Info.plist */,
-				B4B0E913E8D4B912550A3F98D8460C32 /* VCLoadTimeProfiler.modulemap */,
-				D664C9AE87E6D9880D429F10F9256197 /* VCLoadTimeProfiler.xcconfig */,
-				E196DAD4C72EA1EEC96953FB9C6364BD /* VCLoadTimeProfiler-dummy.m */,
-				FF63DBD6B194CA33CC387915E445AFAF /* VCLoadTimeProfiler-prefix.pch */,
-				DE98529896934932C88E7CD13D5373DB /* VCLoadTimeProfiler-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VCLoadTimeProfiler";
 			sourceTree = "<group>";
 		};
 		FE0464E2603AE2D85B94B0A9657212B4 /* Pods-VCLoadTimeProfiler_Example */ = {
@@ -233,6 +233,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		059660B22E6D8EA5D19161E3AFF14AD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D1265C9FE269E024A2590ECA3BF6DA /* UIViewController+LoadTimeProfiler.h in Headers */,
+				3DD321B1E8F79A6E29914A7D783C3F94 /* VCLoadTimeProfiler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A576FEA032753E1293A22837C4CF6844 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,15 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2DA8B1830EC062945F5AC9C93A240C /* Pods-VCLoadTimeProfiler_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8A49397B9743CF6AA481BFF8898ECCE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B494A8316E850A5473CE0DD7A3A58CCC /* VCLoadTimeProfiler-umbrella.h in Headers */,
-				98B7ACCD2125286900AB7D06 /* UIViewController+LoadTimeProfiler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +301,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D942649B63710966776855394E3B339 /* Build configuration list for PBXNativeTarget "VCLoadTimeProfiler" */;
 			buildPhases = (
-				70AEE0718EEF69BBC4598EA499383B73 /* Sources */,
+				B4BD519C61131327309989AE00C4BBCD /* Sources */,
 				E47FCC90451B56C6AD264E28CF6B0C0F /* Frameworks */,
-				F8A49397B9743CF6AA481BFF8898ECCE /* Headers */,
+				059660B22E6D8EA5D19161E3AFF14AD5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,12 +351,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70AEE0718EEF69BBC4598EA499383B73 /* Sources */ = {
+		B4BD519C61131327309989AE00C4BBCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B7ACCE2125286900AB7D06 /* UIViewController+LoadTimeProfiler.m in Sources */,
-				F0DAA1FF3E8231997906EDF6F78F91D7 /* VCLoadTimeProfiler-dummy.m in Sources */,
+				2A76B62ACC75BD6DC5DEBF37B9E4556A /* UIViewController+LoadTimeProfiler.m in Sources */,
+				285EB9B9FA3D5C012449E42D32D1F31B /* VCLoadTimeProfiler-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +643,7 @@
 		};
 		F7FF67C2703EDDF078DB3A9004684CA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D664C9AE87E6D9880D429F10F9256197 /* VCLoadTimeProfiler.xcconfig */;
+			baseConfigurationReference = BF770D041CC9874C0885BC1AD2A7A0DB /* VCLoadTimeProfiler.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -674,7 +674,7 @@
 		};
 		F81E49A5141843236C87175FEF385BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D664C9AE87E6D9880D429F10F9256197 /* VCLoadTimeProfiler.xcconfig */;
+			baseConfigurationReference = BF770D041CC9874C0885BC1AD2A7A0DB /* VCLoadTimeProfiler.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
